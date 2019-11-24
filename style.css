@@ -1,0 +1,52 @@
+body{
+   font-family: Arial;
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+}
+
+
+#logo{
+    display: block;
+    margin-left: 51.5em;
+    margin-right: auto;
+    margin-top: 220px;
+}
+.head a{
+    margin-top:20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    color:rgb(50, 50, 50);
+    text-decoration: none;
+}
+.head a:hover{
+    text-decoration: underline;
+}
+.head img{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.head{
+    font-size: 13px;
+    margin-top: 10px;
+    display: inline;
+    color: gray;
+    
+}
+#profile{
+    max-width: 30px;
+    max-height: 30px;
+    float: right;
+}
+#appicon{
+    max-width: 30px;
+    max-height: 30px;
+    float: right;
+}
+#inputcontainer{
+    text-align: center;
+}
+#input{
+    display: inline-block;
+}
