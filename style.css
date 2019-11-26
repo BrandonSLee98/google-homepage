@@ -5,13 +5,13 @@ body{
    right: 0;
    left: 0;
 }
-
+/* CSS comment for reference */
 
 #logo{
     display: block;
     margin-left: 51.5em;
     margin-right: auto;
-    margin-top: 220px;
+    margin-top: 210px;
 }
 .head a{
     margin-top:20px;
@@ -35,18 +35,78 @@ body{
     
 }
 #profile{
-    max-width: 30px;
-    max-height: 30px;
+    margin-top: 9px;
+    max-width: 37px;
+    max-height: 37px;
     float: right;
 }
 #appicon{
+    padding-top: 2px;
     max-width: 30px;
     max-height: 30px;
     float: right;
 }
 #inputcontainer{
     text-align: center;
+    margin-top: 23px;
 }
 #input{
     display: inline-block;
+    border-radius: 25px;
+    height: 40px;
+    border-color: rgb(240, 240, 240);
+    width: 47em;
+}
+.button{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+  
+}
+button{
+    background-color: rgb(240, 240, 240);
+    border: none;
+    font-size: 14px;
+    color: rgb(118, 118, 118);
+    margin: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;   
+    border-radius: 5px;
+}
+button:hover{
+    background-color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(190, 190, 190);
+   
+}
+#centertext{
+    text-align: center;
+    font-size: 12px;
+
+}
+#centertext a{
+    text-decoration: none;
+}
+.foot{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(235, 235, 235);
+    padding: 12px;
+    font-size: 12px;
+    margin-right: 10px;
+
+}
+.foot a{
+    text-decoration: none;
+    color: rgb(118, 118, 118);
+    margin-left: 5px;
+    margin-right: 20px;
+    padding: 4px;
 }
